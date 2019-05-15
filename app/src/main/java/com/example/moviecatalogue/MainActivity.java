@@ -1,46 +1,91 @@
 package com.example.moviecatalogue;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ListView;
+import android.provider.Settings;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.FrameLayout;
 
-import com.example.moviecatalogue.adapter.MovieAdapter;
-import com.example.moviecatalogue.model.Movie;
-import com.example.moviecatalogue.presenter.MainPresenter;
-import com.example.moviecatalogue.view.ClickItemListener;
-import com.example.moviecatalogue.view.MainView;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.Fragment;
 
-import java.util.ArrayList;
+import com.example.moviecatalogue.fragment.MovieFragment;
+import com.example.moviecatalogue.fragment.TVFragment;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class MainActivity extends AppCompatActivity implements MainView, ClickItemListener {
+import butterknife.BindView;
+import butterknife.ButterKnife;
 
-    private MovieAdapter adapter;
+public class MainActivity extends AppCompatActivity {
+
+    @BindView(R.id.toolbar)
+    Toolbar toolbar;
+    @BindView(R.id.nav_view)
+    BottomNavigationView navView;
+
+    private final BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
+            = new BottomNavigationView.OnNavigationItemSelectedListener() {
+
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            Fragment fragment = null;
+            switch (item.getItemId()) {
+                case R.id.navigation_movie:
+                    toolbar.setTitle(getString(R.string.title_movies));
+                    fragment = new MovieFragment();
+                    break;
+                case R.id.navigation_tv:
+                    toolbar.setTitle(getString(R.string.title_tv));
+                    fragment = new TVFragment();
+                    break;
+            }
+            return loadFragment(fragment);
+        }
+    };
+
+    private void setUpAdapter() {
+        toolbar.setTitle(getString(R.string.title_movies));
+        loadFragment(new MovieFragment());
+        navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+    }
+
+    private boolean loadFragment(Fragment fragment) {
+        //switching fragment
+        if (fragment != null) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.frame_container, fragment)
+                    .commit();
+            return true;
+        }
+        return false;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        MainPresenter presenter = new MainPresenter(this, this);
-        adapter = new MovieAdapter(this, this);
-
-        ListView listView = findViewById(R.id.listView);
-        listView.setAdapter(adapter);
-
-        presenter.setDataMovie();
+        ButterKnife.bind(this);
+        setUpAdapter();
+        setSupportActionBar(toolbar);
     }
 
     @Override
-    public void showList(ArrayList<Movie> movies) {
-        adapter.setMovies(movies);
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
     }
 
     @Override
-    public void onClickItem(Movie movie) {
-        Intent intent = new Intent(MainActivity.this, DetailActivity.class);
-        intent.putExtra(DetailActivity.EXTRA_MOVIE, movie);
-        startActivity(intent);
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.action_change_settings) {
+            Intent mIntent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
+            startActivity(mIntent);
+        }
+        return super.onOptionsItemSelected(item);
     }
+
 }

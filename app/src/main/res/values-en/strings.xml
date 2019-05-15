@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieTVKatalog</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_tv">TV Shows</string>
+
+    <string name="title_movie">Doraemon</string>
+    <string name="title_date">March 18, 2019</string>
+    <string name="title_settings">Settings</string>
+
+    <string-array name="data_movie">
+        <item>Aquaman</item>
+        <item>Avenger Infinity</item>
+        <item>Birdbox</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+        <item>Deadpool</item>
+        <item>Dragon Ball</item>
+        <item>Hunter Killer</item>
+        <item>Robin Hood</item>
+    </string-array>
+
+    <string-array name="data_date">
+        <item>21 December 2018</item>
+        <item>25 April 2018</item>
+        <item>12 November 2018</item>
+        <item>27 October 2018</item>
+        <item>19 December 2018</item>
+        <item>19 November 2015</item>
+        <item>10 February 2016</item>
+        <item>5 Juli 2015</item>
+        <item>24 October 2018</item>
+        <item>20 November 2018</item>
+    </string-array>
+
+    <string-array name="data_poster">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_robinhood</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>This film reveals the origins of Arthur Curry, a powerful man who can control water and marine animals. Where did he get his strength? Who is his parents, and is it appropriate for him to become a king at Samudera?</item>
+        <item>The Avengers and their allies must be willing to sacrifice everything in an effort to defeat Thanos who is strong before he can destroy the universe.</item>
+        <item>The Bird Box film (2018) is a catalog directed by Susanne Bier who tells about a woman with two children who tracer the forest and the river in a closed eye to protect the supernatural beings.</item>
+        <item>BOHEMIAN RHAPSODY is a film based on a true story to celebrate the music of the legendary QUEEN Rock band and of course their extraordinary vocalist, FREDDIE MERCURY, who is known to oppose tradition and stereotypes to become one of the most loved entertainers on the planet.</item>
+        <item>On the run in 1987, Bumblebee found refuge in a junkyard in a small town on the coast of California. Charlie, the girl who was touching the age of 18 and was looking for identity, found Bumblebee, who was scratched and damaged. When trying to function again, Charlie witnessed himself that this was not an ordinary yellow VW frog.</item>
+        <item>Adonis Johnson, son of heavyweight boxing champion Apollo Creed, continued his fathers legacy as a boxer and began training at Rocky Balboa, his old friend and heavy rival to his father.</item>
+        <item>Mercenary Wade Wilson, undergoing an experiment to cure himself of cancer. He gained strength from the healing process, but with consequences became permanently physically disabled.</item>
+        <item>This is a new story from the Saiyan Nation. Earth is peaceful after the Power Tournament. Realizing that the universe still has many more powerful people to find, Goku spent all his days practicing to achieve even better fighting skills. Then one day, Goku and Vegeta were confronted by another Saiyan named Broly whom they had never seen before.</item>
+        <item>Hunter Killer will tell about the mission of the US submarine team to save the Russian president who was couped by militant groups in his country.</item>
+        <item>Robin Hood (Taron Egerton) as a crusader returned to his country under different circumstances. He found corrupt officials and spent royal money while the people were in a state of misery. Together with Little John (Jamie Foxx) he fought a very strong British tyranny.</item>
+    </string-array>
+
+    <string-array name="data_movie_tv">
+        <item>The Simpsons</item>
+        <item>Arrow</item>
+        <item>NCIS</item>
+        <item>The Walking Dead</item>
+        <item>Naruto Shipudden</item>
+        <item>Doom Patrol</item>
+        <item>The Flash</item>
+        <item>Gotham</item>
+        <item>Game of Thrones</item>
+        <item>Hanna</item>
+    </string-array>
+
+    <string-array name="data_date_tv">
+        <item>25 April 2018</item>
+        <item>21 December 2018</item>
+        <item>27 October 2018</item>
+        <item>10 February 2016</item>
+        <item>19 December 2018</item>
+        <item>19 November 2015</item>
+        <item>24 October 2018</item>
+        <item>12 November 2018</item>
+        <item>20 November 2018</item>
+        <item>5 July 2015</item>
+    </string-array>
+
+    <string-array name="data_poster_tv">
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_the_walking_dead</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_hanna</item>
+    </string-array>
+
+    <string-array name="data_desc_tv">
+        <item>The Simpsons is an American comedy cartoon series created by Matt Groening. This program first began airing as a piece of the Tracey Ullman Show in 1987.</item>
+        <item>Arrow is an American television series developed by Greg Berlanti, Andrew Kreisberg, and Geoff Johns, which airs on The CW. The series is based on DC Comics figure Green Arrow (Oliver Queen), a costumed superhero, crime-cracker armed with a bow amp; arrow. The series tells Oliver Queen, a billionaire playboy who was post-five-year slapped on a desert island, back home armed with a bow amp; arrow to quell crime in the City of Star as a secret vigilante named Green Arrow.</item>
+        <item>The Naval Criminal Investigative Service (NCIS) is a federal agency that investigates criminal cases against the US Navy and US Marine Corps, both members and their families (such as murder or kidnapping), military installations, military weapons (aircraft carrier, warship, submarine, etc ), to counterterrorism and counterintelligence. NCIS is an independent civil agency that is directly responsible to the Secretary of the Navy of the United States. NCIS has Special Agents in 140 regional offices and Afloat Agents who are on warships.</item>
+        <item>The Walking Dead occurs after the beginning of a zombie apocalypse around the world. Zombies, commonly called walkers, walk towards humans and other living creatures to eat them (they are attracted to noise, such as gunshots, and different scents, such as human scents). The humans they bite or claw become infected and slowly turn into walkers too. It was revealed at the beginning of the series that all living humans carry this pathogen, so if they die of other reasons, they will also turn into walkers. The only way to permanently kill a walker is to damage his brain or destroy his entire body, such as by cremating it.</item>
+        <item>After Naruto returned to Konoha village, he was greeted by Sakura, Hinata, Shikamaru, Chouji and other friends while being Genin, and it turned out they had become Chuunin, except for Shikamaru who had surpassed the others by becoming Jounin. Then Kakashi again tests Naruto and Sakura to find out how they are developing now. The exam is almost the same as the exam when they just became Genin. Its just that this time Kakashi is serious and even uses the Sharingan. Initially, Naruto and Sakura were overwhelmed by Kakashi who was very strong and fast, and added that Kakashi was wearing a Sharingan. But the situation ended when Naruto managed to do something to Kakashi and finally made them both pass the exam once again.</item>
+        <item>As mentioned earlier, Doom Patrol first appeared in comics in 1963, precisely in the comic anthology of My Greatest Adventures. This superhero team was created by writer Arnold Drake and Bob Haney, as well as illustrator Bruno Premiani. In 1964, precisely on the 86th issue and so on, the My Greatest Adventures comic was changed to Doom Patrol. Doom Patrol itself consists of The Chief (Doctor Niles Caulder), Elasti-Girl (Rita Farr), Negative Man (Larry Trainor), Robotman (Cliff Steele), Mento (Steve Dayton), and Beast Boy (Garfield Logan). Some other characters, such as Crazy Jane (Kay Challis), appear as members on future issues. They are a superhero team that has no place in the community, because the strength they have makes them exiled or traumatized. Before this series airs next year its a good idea for Geeks to read this article to find out what and who is Doom Patrol.</item>
+        <item>After experiencing a coma for 9 months, Barry woke up and found himself in the S.T.A.R laboratory owned by Dr. Harrison Wells. Dr. Harrison Wells was an idol of Barry, along with his assistant, Dr. Caitlin Snow and Cisco Ramon they have been treating Barry for the past 9 months. Barry quickly learned the incredible speed he had. At that time there was another metahumans formed from the particle explosion of the laboratory accelerator S.T.A.R. One of them was named Clyde Mardom, a metahuman who was able to control the weather, at that time he tried to rob a bank.</item>
+        <item>Gotham is an American drama / criminal TV Series that will tell the story of James Gordon before the appearance of Batman. Gotham will bring out various DC Comics characters around Batman such as Penguin, the Riddler, and Catwoman. This series was made by Rob Kane, and is scheduled to air on September 22, 2014.</item>
+        <item>Game of Thrones is a series of Hollywood drama genre change. This drama was released for the first time on April 17, 2011 and in 2019 Game of Thrones has entered season 8. This drama series is adapted from a fantasy novel by George R. R. Martin with the title A Song of Oce and Fire.</item>
+        <item>Hanna (Saoirse Ronan) might look the same as most young girls her age. There is nothing strange about this beautiful girl. But dont be careless, because behind the softness of this young girl there is something very deadly. Hanna was as deadly as CIA agents trained to kill mercilessly.</item>
+    </string-array>
+</resources>

@@ -1,7 +1,11 @@
 <resources>
-    <string name="app_name">MovieCatalogue</string>
+    <string name="app_name">MovieTVKatalog</string>
+    <string name="title_movies">Film</string>
+    <string name="title_tv">Serial TV</string>
+
     <string name="title_movie">Doraemon</string>
     <string name="title_date">March 18, 2019</string>
+    <string name="title_settings">Pengaturan</string>
 
     <string-array name="data_movie">
         <item>Aquaman</item>
@@ -54,4 +58,57 @@
         <item>Hunter Killer akan berkisah tentang misi tim kapal selam Amerika Serikat untuk menyelamatkan presiden Rusia yang di kudeta oleh kelompok militan di negaranya.</item>
         <item>Robin Hood (Taron Egerton) sebagai tentara salib kembali ke negerinya dalam keadaan yang berbeda. Ia menemukan pejabat korup dan menghabiskan uang kerajaan sementara rakyat dalam keadaan sengsara. Bersama Little John (Jamie Foxx) Ia melawan tirani Inggris yang sangat kuat.</item>
     </string-array>
+
+    <string-array name="data_movie_tv">
+        <item>The Simpsons</item>
+        <item>Arrow</item>
+        <item>NCIS</item>
+        <item>The Walking Dead</item>
+        <item>Naruto Shipudden</item>
+        <item>Doom Patrol</item>
+        <item>The Flash</item>
+        <item>Gotham</item>
+        <item>Game of Thrones</item>
+        <item>Hanna</item>
+    </string-array>
+
+    <string-array name="data_date_tv">
+        <item>25 April 2018</item>
+        <item>21 Desember 2018</item>
+        <item>27 Oktober 2018</item>
+        <item>10 Februari 2016</item>
+        <item>19 Desember 2018</item>
+        <item>19 November 2015</item>
+        <item>24 Oktober 2018</item>
+        <item>12 November 2018</item>
+        <item>20 November 2018</item>
+        <item>5 Juli 2015</item>
+    </string-array>
+
+    <string-array name="data_poster_tv">
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_the_walking_dead</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_hanna</item>
+    </string-array>
+
+    <string-array name="data_desc_tv">
+        <item>The Simpsons adalah serial kartun komedi Amerika Serikat yang diciptakan oleh Matt Groening. Program ini pertama kali mulai ditayangkan sebagai potongan acara Tracey Ullman Show pada tahun 1987.</item>
+        <item>Arrow adalah serial televisi Amerika yang dikembangkan oleh Greg Berlanti, Andrew Kreisberg, dan Geoff Johns, yang mengudara di The CW. Serial ini didasari tokoh DC Comics Green Arrow (Oliver Queen), seorang pahlawan super berkostum, penumpas-kejahatan yang bersenjatakan busur &amp; panah. Serial ini menceritakan Oliver Queen, playboy miliuner yang pascaterdampar lima tahun di pulau terpencil, kembali pulang bersenjatakan busur &amp; panah untuk menumpas kejahatan di Kota Star sebagai vigilante rahasia bernama Green Arrow.</item>
+        <item>Naval Criminal Investigative Service (NCIS) adalah badan agensi federal yang menginvestigasi kasus-kasus kejahatan kepada US Navy dan US Marine Corps, baik anggota maupun keluarganya (seperti pembunuhan atau penculikan), instalasi militer, persenjataan militer (aircraft carrier, warship, submarine, etc), hingga kontraterorisme dan kontraintelijen. NCIS merupakan agensi sipil independen yang bertanggungjawab langsung kepada Secretary of Navy of United States (Menteri Angkatan Laut Amerika Serikat). NCIS mempunyai Special Agent di 140 kantor wilayah dan Agent Afloat yang berada di kapal perang.</item>
+        <item>The Walking Dead terjadi setelah permulaan sebuah kiamat zombi di seluruh dunia. Zombi-zombi yang biasa disebut walker tersebut, berjalan menuju manusia dan makhluk hidup lainnya untuk memakannya (mereka tertarik pada kebisingan, misalnya suara tembakan, dan aroma yang berbeda, misalnya aroma manusia). Manusia yang mereka gigit atau cakar menjadi terinfeksi dan perlahan berubah menjadi walker juga. Terungkap di awal serial bahwa semua manusia yang hidup membawa patogen ini, sehingga jika mereka meninggal karena sebab lain, mereka juga akan berubah menjadi walker. Satu-satunya cara untuk membunuh walker secara permanen adalah dengan merusak otaknya atau menghancurkan seluruh tubuhnya, seperti dengan mengkremasinya.</item>
+        <item>Setelah Naruto kembali ke desa Konoha, ia disambut oleh Sakura, Hinata, Shikamaru, Chouji dan teman-teman lainnya semasa menjadi Genin, dan ternyata mereka telah menjadi Chuunin, kecuali Shikamaru yang sudah melebihi yang lainnya dengan menjadi Jounin. Kemudian Kakashi kembali menguji Naruto dan Sakura untuk mengetahui bagaimana perkembangan mereka saat ini. Ujiannya hampir sama dengan ujian ketika mereka baru saja menjadi Genin. Hanya saja kali ini Kakashi serius dan bahkan menggunakan Sharingan. Awalnya, Naruto dan Sakura kewalahan menghadapi Kakashi yang sangat kuat dan cepat, dan ditambah lagi Kakashi memakai Sharingan. Namun keadaan itu berakhir ketika Naruto berhasil melakukan sesuatu pada Kakashi dan akhirnya membuat mereka berdua lulus pada ujian itu sekali lagi.</item>
+        <item>Seperti yang sudah disebutkan sebelumnya kalau Doom Patrol pertama kali muncul di dalam komik pada tahun 1963, tepatnya di dalam antologi komik My Greatest Adventures. Tim superhero ini diciptakan oleh penulis Arnold Drake dan Bob Haney, serta ilustrator Bruno Premiani.  Pada tahun 1964, tepatnya pada isu ke 86 dan seterusnya, komik My Greatest Adventures diubah menjadi Doom Patrol. Doom Patrol sendiri terdiri dari The Chief (Doctor Niles Caulder), Elasti-Girl (Rita Farr), Negative Man (Larry Trainor), Robotman (Cliff Steele), Mento (Steve Dayton), dan Beast Boy (Garfield Logan). Beberapa karakter lain, seperti Crazy Jane (Kay Challis), muncul sebagai anggota di isu-isu mendatang. Mereka adalah tim superhero yang tidak mendapat tempat di masyarakat, karena kekuatan yang mereka miliki membuat mereka diasingkan atau trauma. Sebelum serial ini tayang tahun depan ada baiknya Geeks membaca artikel ini untuk mengetahui apa dan siapa itu Doom Patrol.</item>
+        <item>Setelah mengalami koma selama 9 bulan, Barry terbangun dan mendapati dirinya ada di laboratorium S.T.A.R yang dimiliki oleh Dr. Harrison Wells. Dr. Harrison Wells merupakan idola dari Barry, bersama dengan asistennya yaitu Dr. Caitlin Snow dan Cisco Ramon mereka telah merawat Barry selama 9 bulan belakangan. Dengan cepat Barry dapat mempelajari kecepatan yang luar biasa yang ada pada dirinya. Pada saat itu ada metahumans lain yang terbentuk dari ledakan partikel akselerator laboratorium S.T.A.R. Salah satunya bernama Clyde Mardom seorang metahuman yang dapat mengendalikan cuaca, pada saat itu dia berusaha merampok sebuah bank.</item>
+        <item>Gotham adalah TV Series drama/kriminal buatan Amerika yang akan menceritakan awal kisah James Gordon sebelum kemunculan Batman. Gotham akan memunculkan berbagai karakter DC Comics seputar Batman seperti Penguin, the Riddler, dan Catwoman. Serial ini dibuat oleh Rob Kane, dan dijadwalkan akan tayang pada 22 September 2014.</item>
+        <item>Game of Thrones adalah serial drama Hollywood bergenre gantasi. Drama ini dirilis pertama kali pada 17 April 2011 dan di tahun 2019 ini Game of Thrones sudah memasuki season ke 8.Serial drama ini diadaptasi dri sebuah novel fantasi karya George R.R. Martin dengan judul A Song of Oce and Fire.</item>
+        <item>Hanna (Saoirse Ronan) mungkin terlihat sama dengan kebanyakan gadis belia seusianya. Tak ada yang aneh dengan gadis cantik ini. Tapi jangan lengah, karena di balik kelembutan gadis belia ini tersimpan sesuatu yang sangat mematikan. Hanna sama mematikannya dengan para agen CIA yang dilatih untuk membunuh tanpa ampun.</item>
+    </string-array>
+
 </resources>

@@ -3,7 +3,7 @@ package com.example.moviecatalogue.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Movie implements Parcelable {
+public class Catalog implements Parcelable {
 
     private int poster;
     private String title;
@@ -55,25 +55,25 @@ public class Movie implements Parcelable {
         dest.writeString(this.desc);
     }
 
-    public Movie() {
+    public Catalog() {
     }
 
-    private Movie(Parcel in) {
+    private Catalog(Parcel in) {
         this.poster = in.readInt();
         this.title = in.readString();
         this.date = in.readString();
         this.desc = in.readString();
     }
 
-    public static final Parcelable.Creator<Movie> CREATOR = new Parcelable.Creator<Movie>() {
+    public static final Creator<Catalog> CREATOR = new Creator<Catalog>() {
         @Override
-        public Movie createFromParcel(Parcel source) {
-            return new Movie(source);
+        public Catalog createFromParcel(Parcel source) {
+            return new Catalog(source);
         }
 
         @Override
-        public Movie[] newArray(int size) {
-            return new Movie[size];
+        public Catalog[] newArray(int size) {
+            return new Catalog[size];
         }
     };
 }

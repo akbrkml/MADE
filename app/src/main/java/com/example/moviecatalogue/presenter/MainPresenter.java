@@ -3,9 +3,10 @@ package com.example.moviecatalogue.presenter;
 import android.content.Context;
 import android.content.res.TypedArray;
 
-import com.example.moviecatalogue.view.MainView;
-import com.example.moviecatalogue.model.Movie;
+
 import com.example.moviecatalogue.R;
+import com.example.moviecatalogue.model.Catalog;
+import com.example.moviecatalogue.view.MainView;
 
 import java.util.ArrayList;
 
@@ -24,11 +25,15 @@ public class MainPresenter {
     }
 
     public void setDataMovie() {
-        prepare();
+        prepareMovie();
         addDataMovie();
     }
+    public void setDataTv() {
+        prepareTv();
+        addDataTv();
+    }
 
-    private void prepare() {
+    private void prepareMovie() {
         dataTitle = context.getResources().getStringArray(R.array.data_movie);
         dataDate = context.getResources().getStringArray(R.array.data_date);
         dataPoster = context.getResources().obtainTypedArray(R.array.data_poster);
@@ -36,15 +41,35 @@ public class MainPresenter {
     }
 
     private void addDataMovie() {
-        ArrayList<Movie> movies = new ArrayList<>();
+        ArrayList<Catalog> catalogs = new ArrayList<>();
         for (int i = 0; i < dataTitle.length; i++) {
-            Movie movie = new Movie();
-            movie.setPoster(dataPoster.getResourceId(i, -1));
-            movie.setTitle(dataTitle[i]);
-            movie.setDate(dataDate[i]);
-            movie.setDesc(dataDesc[i]);
-            movies.add(movie);
+            Catalog catalog = new Catalog();
+            catalog.setPoster(dataPoster.getResourceId(i, -1));
+            catalog.setTitle(dataTitle[i]);
+            catalog.setDate(dataDate[i]);
+            catalog.setDesc(dataDesc[i]);
+            catalogs.add(catalog);
         }
-        mainView.showList(movies);
+        mainView.showList(catalogs);
+    }
+
+    private void prepareTv() {
+        dataTitle = context.getResources().getStringArray(R.array.data_movie_tv);
+        dataDate = context.getResources().getStringArray(R.array.data_date_tv);
+        dataPoster = context.getResources().obtainTypedArray(R.array.data_poster_tv);
+        dataDesc = context.getResources().getStringArray(R.array.data_desc_tv);
+    }
+
+    private void addDataTv() {
+        ArrayList<Catalog> catalogs = new ArrayList<>();
+        for (int i = 0; i < dataTitle.length; i++) {
+            Catalog catalog = new Catalog();
+            catalog.setPoster(dataPoster.getResourceId(i, -1));
+            catalog.setTitle(dataTitle[i]);
+            catalog.setDate(dataDate[i]);
+            catalog.setDesc(dataDesc[i]);
+            catalogs.add(catalog);
+        }
+        mainView.showList(catalogs);
     }
 }
