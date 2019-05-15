@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="title_movie">Doraemon</string>
+    <string name="title_date">March 18, 2019</string>
+
+    <string-array name="data_movie">
+        <item>Aquaman</item>
+        <item>Avenger Infinity</item>
+        <item>Birdbox</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+        <item>Deadpool</item>
+        <item>Dragon Ball</item>
+        <item>Hunter Killer</item>
+        <item>Robin Hood</item>
+    </string-array>
+
+    <string-array name="data_date">
+        <item>21 Desember 2018</item>
+        <item>25 April 2018</item>
+        <item>12 November 2018</item>
+        <item>27 Oktober 2018</item>
+        <item>19 Desember 2018</item>
+        <item>19 November 2015</item>
+        <item>10 Februari 2016</item>
+        <item>5 Juli 2015</item>
+        <item>24 Oktober 2018</item>
+        <item>20 November 2018</item>
+    </string-array>
+
+    <string-array name="data_poster">
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <item>@drawable/poster_robinhood</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Film ini mengungkap asal-usul Arthur Curry, manusia perkasa yang bisa mengendalikan air dan hewan laut. Dari mana ia mendapatkan kekuatannya? Siapa orang tuanya, dan pantaskah dia menjadi seorang raja di 7samudera?</item>
+        <item>The Avengers dan sekutu mereka harus bersedia mengorbankan segalanya dalam upaya untuk mengalahkan Thanos yang kuat sebelum ia berhasil menghancurkan alam semesta.</item>
+        <item>Film Bird Box (2018) adalah film yang diarahkan oleh Susanne Bier yang berkisah tentang seorang wanita bersama dua anak yang menelusuri hutan dan sungai dalam keadaan mata tertutup untuk melindungi makhluk supernatural.</item>
+        <item>BOHEMIAN RHAPSODY adalah film yang diangkat dari kisah nyata untuk merayakan musik band Rock legendaris QUEEN dan tentunya vokalis mereka yang luar biasa, FREDDIE MERCURY, yang dikenal menentang tradisi dan stereotip hingga menjadi salah satu penghibur yang paling dicintai di planet ini.</item>
+        <item>Dalam pelarian di tahun 1987, Bumblebee menemukan perlindungan di tempat rongsokan di sebuah kota kecil pinggir pantai California. Charlie, gadis yang tengah menyentuh usia 18 tahun dan sedang mencari jati diri, menemukan Bumblebee, yang banyak tergores dan rusak. Ketika berusaha memfungsikannya lagi, Charlie menyaksikan sendiri bahwa ini bukanlah mobil VW kodok berwarna kuning yang biasa.</item>
+        <item>Adonis Johnson, putra juara tinju kelas berat Apollo Creed, meneruskan warisan ayahnya sebagai petinju dan mulai berlatih pada Rocky Balboa, teman lama sekaligus rival berat ayahnya.</item>
+        <item>Prajurit bayaran Wade Wilson, menjalani percobaan untuk menyembuhkan dirinya dari kanker. Ia memperoleh kekuatan dari proses penyembuhan itu, tapi dengan konsekuensi menjadi cacat fisik permanen.</item>
+        <item>Ini adalah kisah baru dari Bangsa Saiyan. Bumi damai setelah Turnamen Kekuasaan. Menyadari bahwa alam semesta masih memiliki banyak orang yang lebih kuat untuk ditemukan, Goku menghabiskan seluruh harinya berlatih untuk mencapai kemampuan bertarungnya yang lebih baik lagi. Lalu suatu hari, Goku dan Vegeta dihadapkan oleh seorang Saiyan lainnya bernama Broly yang belum pernah mereka lihat sebelumnya.</item>
+        <item>Hunter Killer akan berkisah tentang misi tim kapal selam Amerika Serikat untuk menyelamatkan presiden Rusia yang di kudeta oleh kelompok militan di negaranya.</item>
+        <item>Robin Hood (Taron Egerton) sebagai tentara salib kembali ke negerinya dalam keadaan yang berbeda. Ia menemukan pejabat korup dan menghabiskan uang kerajaan sementara rakyat dalam keadaan sengsara. Bersama Little John (Jamie Foxx) Ia melawan tirani Inggris yang sangat kuat.</item>
+    </string-array>
+</resources>
